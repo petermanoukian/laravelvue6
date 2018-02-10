@@ -1,0 +1,34 @@
+composer create-project --prefer-dist laravel/laravel laravelvue "5.5.*"
+
+mkdir app\Models
+mv app\User.php app\Models
+
+
+mkdir assets\components
+
+touch assets\components\App.vue
+
+touch assets\components\Dashboard.vue
+
+touch assets\components\Home.vue
+
+touch assets\components\Register.vue
+
+touch assets\components\Signin.vue
+
+
+
+mkdir assets\js
+
+touch assets\js\app.js
+
+
+php artisan jwt:generate
+
+In BoundMethod.php line 135:
+
+  Method Tymon\JWTAuth\Commands\JWTGenerateCommand::handle() does not exist
+
+php artisan make:controller UserController
+
+C:\wamp64\www\laravelvue
