@@ -1,0 +1,12 @@
+The database .sql is found on the folder: Thedatabase
+
+the file is: laravelvue.sql
+
+the connection settings  from a file .env in the root 
+
+on the .env file the database , the username, the database type, the password are set
+
+
+there is another table that explains the shema, the migration files on:
+database\migrations
+

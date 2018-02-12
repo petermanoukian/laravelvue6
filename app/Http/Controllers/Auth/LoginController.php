@@ -58,6 +58,7 @@ class LoginController extends Controller
             $meta = [];
 
             $data['name'] = $request->user()->name;
+			 $data['email'] = $request->user()->email;
             $meta['token'] = $token;
 
             return response()->json([

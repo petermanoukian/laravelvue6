@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-        public function index(Request $request)
+   public function index(Request $request)
     {
         $data = [];
         $data['name'] = $request->user()->name;
@@ -15,4 +15,14 @@ class UserController extends Controller
             'data' => $data,
         ]);
     }
+	   public function index2(Request $request)
+    {
+        $data = [];
+       $data['name'] = $request->user()->name;
+             return response()->json([
+            'data' => $data,
+        ]);
+    }
+	
+	
 }

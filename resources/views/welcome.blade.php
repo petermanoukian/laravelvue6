@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-	this is the vue section 
+	
         <div id="app"></div>
     </div>
     <script src="/js/app.js"></script>
